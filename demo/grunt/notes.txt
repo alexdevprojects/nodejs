@@ -1,0 +1,17 @@
+# Install Grunt
+# First globally
+npm install -g grunt-cli
+
+# Get into working folder
+# Start a project and create a package.json file:
+npm init
+
+# Install grunt as a dependency of local project
+npm install -S grunt
+
+# Install the task - http://gruntjs.com/plugins
+
+npm install grunt-contrib-concat --save-dev
+
+npm install grunt-contrib-watch --save-dev
+
